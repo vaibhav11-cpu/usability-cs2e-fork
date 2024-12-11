@@ -1,1 +1,14 @@
 /* this is a media query stylesheet */
+.container{
+    overflow:hidden;
+}
+
+@media screen and (max-width:991px) {
+     .nav-toggle{
+    display:block;
+    margin-right: 20px;
+} 
+.nav-links{
+    display: none;
+}
+}
